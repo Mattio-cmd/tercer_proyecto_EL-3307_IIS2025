@@ -6,19 +6,19 @@ IO_LOC  "anodo[2]" 42;
 
 IO_LOC  "anodo[3]" 40;
 
-IO_LOC  "g" 40;
+IO_LOC  "g" 48;
 
-IO_LOC  "f" 35;
+IO_LOC  "f" 68;
 
-IO_LOC  "e" 41;
+IO_LOC  "e" 32;
 
-IO_LOC  "d" 42;
+IO_LOC  "d" 31;
 
-IO_LOC  "c" 51;
+IO_LOC  "c" 49;
 
-IO_LOC  "b" 53;
+IO_LOC  "b" 69;
 
-IO_LOC  "a" 54;
+IO_LOC  "a" 57;
 
 IO_LOC  "columnas[0]" 39;
 
