@@ -1,10 +1,10 @@
-IO_LOC  "anodo[0]" 25;
+IO_LOC  "anodo[0]" 71;
 
-IO_LOC  "anodo[1]" 26;
+IO_LOC  "anodo[1]" 54;
 
-IO_LOC  "anodo[2]" 27;
+IO_LOC  "anodo[2]" 42;
 
-IO_LOC  "anodo[3]" 28;
+IO_LOC  "anodo[3]" 40;
 
 IO_LOC  "g" 40;
 
@@ -20,24 +20,24 @@ IO_LOC  "b" 53;
 
 IO_LOC  "a" 54;
 
-IO_LOC  "columnas[0]" 34;
+IO_LOC  "columnas[0]" 39;
 
-IO_LOC  "columnas[1]" 33;
+IO_LOC  "columnas[1]" 36;
 
-IO_LOC  "columnas[2]" 30;
+IO_LOC  "columnas[2]" 37;
 
-IO_LOC  "columnas[3]" 29;
+IO_LOC  "columnas[3]" 38;
 
-IO_LOC  "filas[0]" 32;
+IO_LOC  "filas[0]" 76;
 IO_PORT "filas[0]" PULL_MODE=DOWN;
 
-IO_LOC  "filas[1]" 31;
+IO_LOC  "filas[1]" 77;
 IO_PORT "filas[1]" PULL_MODE=DOWN;
 
-IO_LOC  "filas[2]" 49;
+IO_LOC  "filas[2]" 79;
 IO_PORT "filas[2]" PULL_MODE=DOWN;
 
-IO_LOC  "filas[3]" 48;
+IO_LOC  "filas[3]" 80;
 IO_PORT "filas[3]" PULL_MODE=DOWN;
 
 IO_LOC  "clk" 52;
