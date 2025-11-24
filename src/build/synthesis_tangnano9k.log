@@ -86,8 +86,8 @@ Successfully finished Verilog frontend.
 
 13. Executing SYNTH_GOWIN pass.
 
-13.1. Executing Verilog-2005 frontend: C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v
-Parsing Verilog input from `C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v' to AST representation.
+13.1. Executing Verilog-2005 frontend: C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v
+Parsing Verilog input from `C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v' to AST representation.
 Generating RTLIL representation for module `\LUT1'.
 Generating RTLIL representation for module `\LUT2'.
 Generating RTLIL representation for module `\LUT3'.
@@ -204,26 +204,26 @@ Removed 2 unused modules.
 13.3. Executing PROC pass (convert processes to netlists).
 
 13.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
-Found and cleaned up 1 empty switch in `\ALU.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
+Found and cleaned up 1 empty switch in `\ALU.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
 Cleaned up 1 empty switch.
 
 13.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377 in module DFFNCE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375 in module DFFNC.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373 in module DFFNPE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371 in module DFFNP.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369 in module DFFNRE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367 in module DFFNR.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365 in module DFFNSE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363 in module DFFNS.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357 in module DFFCE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355 in module DFFC.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353 in module DFFPE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351 in module DFFP.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349 in module DFFRE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347 in module DFFR.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345 in module DFFSE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343 in module DFFS.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377 in module DFFNCE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375 in module DFFNC.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373 in module DFFNPE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371 in module DFFNP.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369 in module DFFNRE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367 in module DFFNR.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365 in module DFFNSE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363 in module DFFNS.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357 in module DFFCE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355 in module DFFC.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353 in module DFFPE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351 in module DFFP.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349 in module DFFRE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347 in module DFFR.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345 in module DFFSE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343 in module DFFS.
 Marked 2 switch rules as full_case in process $proc$../design/tick_generator.sv:10$425 in module $paramod\tick_generator\MAX_COUNT=s32'00000000000000000110100101111000.
 Marked 1 switch rules as full_case in process $proc$../design/teclado_decimal_input.sv:43$142 in module teclado_decimal_input.
 Marked 1 switch rules as full_case in process $proc$../design/teclado_decimal_input.sv:32$138 in module teclado_decimal_input.
@@ -253,58 +253,58 @@ Removed 17 redundant assignments.
 Promoted 48 assignments to connections.
 
 13.3.4. Executing PROC_INIT pass (extract init attributes).
-Found init rule in `\DFFNCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$378'.
+Found init rule in `\DFFNCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$378'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFNC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$376'.
+Found init rule in `\DFFNC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$376'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFNPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$374'.
+Found init rule in `\DFFNPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$374'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFNP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$372'.
+Found init rule in `\DFFNP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$372'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFNRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$370'.
+Found init rule in `\DFFNRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$370'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFNR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$368'.
+Found init rule in `\DFFNR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$368'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFNSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$366'.
+Found init rule in `\DFFNSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$366'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFNS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$364'.
+Found init rule in `\DFFNS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$364'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFNE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$362'.
+Found init rule in `\DFFNE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$362'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFN.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$360'.
+Found init rule in `\DFFN.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$360'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$358'.
+Found init rule in `\DFFCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$358'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$356'.
+Found init rule in `\DFFC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$356'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$354'.
+Found init rule in `\DFFPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$354'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$352'.
+Found init rule in `\DFFP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$352'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$350'.
+Found init rule in `\DFFRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$350'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$348'.
+Found init rule in `\DFFR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$348'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$346'.
+Found init rule in `\DFFSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$346'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$344'.
+Found init rule in `\DFFS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$344'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$342'.
+Found init rule in `\DFFE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$342'.
   Set init value: \Q = 1'0
-Found init rule in `\DFF.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$340'.
+Found init rule in `\DFF.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$340'.
   Set init value: \Q = 1'0
 Found init rule in `\freq_divider.$proc$../design/freq_divider.sv:0$94'.
   Set init value: \slow_clk = 1'0
 
 13.3.5. Executing PROC_ARST pass (detect async resets in processes).
-Found async reset \CLEAR in `\DFFNCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
-Found async reset \CLEAR in `\DFFNC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375'.
-Found async reset \PRESET in `\DFFNPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
-Found async reset \PRESET in `\DFFNP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371'.
-Found async reset \CLEAR in `\DFFCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
-Found async reset \CLEAR in `\DFFC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355'.
-Found async reset \PRESET in `\DFFPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
-Found async reset \PRESET in `\DFFP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351'.
+Found async reset \CLEAR in `\DFFNCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
+Found async reset \CLEAR in `\DFFNC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375'.
+Found async reset \PRESET in `\DFFNPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
+Found async reset \PRESET in `\DFFNP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371'.
+Found async reset \CLEAR in `\DFFCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
+Found async reset \CLEAR in `\DFFC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355'.
+Found async reset \PRESET in `\DFFPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
+Found async reset \PRESET in `\DFFP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351'.
 Found async reset \rst in `$paramod\tick_generator\MAX_COUNT=s32'00000000000000000110100101111000.$proc$../design/tick_generator.sv:10$425'.
 Found async reset \reset in `\deb.$proc$../design/deb.sv:29$61'.
 Found async reset \reset in `\deb.$proc$../design/deb.sv:19$59'.
@@ -314,65 +314,65 @@ Converted 2 switches.
 <suppressed ~89 debug messages>
 
 13.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
-Creating decoders for process `\ALU.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
-Creating decoders for process `\DFFNCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$378'.
-Creating decoders for process `\DFFNCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
+Creating decoders for process `\ALU.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
+Creating decoders for process `\DFFNCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$378'.
+Creating decoders for process `\DFFNCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$376'.
-Creating decoders for process `\DFFNC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375'.
+Creating decoders for process `\DFFNC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$376'.
+Creating decoders for process `\DFFNC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$374'.
-Creating decoders for process `\DFFNPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
+Creating decoders for process `\DFFNPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$374'.
+Creating decoders for process `\DFFNPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$372'.
-Creating decoders for process `\DFFNP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371'.
+Creating decoders for process `\DFFNP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$372'.
+Creating decoders for process `\DFFNP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$370'.
-Creating decoders for process `\DFFNRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369'.
+Creating decoders for process `\DFFNRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$370'.
+Creating decoders for process `\DFFNRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$368'.
-Creating decoders for process `\DFFNR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367'.
+Creating decoders for process `\DFFNR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$368'.
+Creating decoders for process `\DFFNR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$366'.
-Creating decoders for process `\DFFNSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365'.
+Creating decoders for process `\DFFNSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$366'.
+Creating decoders for process `\DFFNSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$364'.
-Creating decoders for process `\DFFNS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363'.
+Creating decoders for process `\DFFNS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$364'.
+Creating decoders for process `\DFFNS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$362'.
-Creating decoders for process `\DFFNE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$361'.
+Creating decoders for process `\DFFNE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$362'.
+Creating decoders for process `\DFFNE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$361'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFN.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$360'.
-Creating decoders for process `\DFFN.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$359'.
-Creating decoders for process `\DFFCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$358'.
-Creating decoders for process `\DFFCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
+Creating decoders for process `\DFFN.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$360'.
+Creating decoders for process `\DFFN.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$359'.
+Creating decoders for process `\DFFCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$358'.
+Creating decoders for process `\DFFCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$356'.
-Creating decoders for process `\DFFC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355'.
+Creating decoders for process `\DFFC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$356'.
+Creating decoders for process `\DFFC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$354'.
-Creating decoders for process `\DFFPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
+Creating decoders for process `\DFFPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$354'.
+Creating decoders for process `\DFFPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$352'.
-Creating decoders for process `\DFFP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351'.
+Creating decoders for process `\DFFP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$352'.
+Creating decoders for process `\DFFP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$350'.
-Creating decoders for process `\DFFRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349'.
+Creating decoders for process `\DFFRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$350'.
+Creating decoders for process `\DFFRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$348'.
-Creating decoders for process `\DFFR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347'.
+Creating decoders for process `\DFFR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$348'.
+Creating decoders for process `\DFFR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$346'.
-Creating decoders for process `\DFFSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345'.
+Creating decoders for process `\DFFSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$346'.
+Creating decoders for process `\DFFSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$344'.
-Creating decoders for process `\DFFS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343'.
+Creating decoders for process `\DFFS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$344'.
+Creating decoders for process `\DFFS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$342'.
-Creating decoders for process `\DFFE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$341'.
+Creating decoders for process `\DFFE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$342'.
+Creating decoders for process `\DFFE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$341'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFF.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$340'.
-Creating decoders for process `\DFF.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$339'.
+Creating decoders for process `\DFF.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$340'.
+Creating decoders for process `\DFF.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$339'.
 Creating decoders for process `$paramod\tick_generator\MAX_COUNT=s32'00000000000000000110100101111000.$proc$../design/tick_generator.sv:10$425'.
      1/2: $0\tick[0:0]
      2/2: $0\count[14:0]
@@ -514,49 +514,49 @@ No latch inferred for signal `\bin_to_bcd.\temp' from process `\bin_to_bcd.$proc
 No latch inferred for signal `\bcd.\seg' from process `\bcd.$proc$../design/bcd.sv:0$1'.
 
 13.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
-Creating register for signal `\ALU.\C' using process `\ALU.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
+Creating register for signal `\ALU.\C' using process `\ALU.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
   created direct connection (no actual register cell created).
-Creating register for signal `\ALU.\S' using process `\ALU.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
+Creating register for signal `\ALU.\S' using process `\ALU.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
   created direct connection (no actual register cell created).
-Creating register for signal `\DFFNCE.\Q' using process `\DFFNCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
+Creating register for signal `\DFFNCE.\Q' using process `\DFFNCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
   created $adff cell `$procdff$1581' with negative edge clock and positive level reset.
-Creating register for signal `\DFFNC.\Q' using process `\DFFNC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375'.
+Creating register for signal `\DFFNC.\Q' using process `\DFFNC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375'.
   created $adff cell `$procdff$1582' with negative edge clock and positive level reset.
-Creating register for signal `\DFFNPE.\Q' using process `\DFFNPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
+Creating register for signal `\DFFNPE.\Q' using process `\DFFNPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
   created $adff cell `$procdff$1583' with negative edge clock and positive level reset.
-Creating register for signal `\DFFNP.\Q' using process `\DFFNP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371'.
+Creating register for signal `\DFFNP.\Q' using process `\DFFNP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371'.
   created $adff cell `$procdff$1584' with negative edge clock and positive level reset.
-Creating register for signal `\DFFNRE.\Q' using process `\DFFNRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369'.
+Creating register for signal `\DFFNRE.\Q' using process `\DFFNRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369'.
   created $dff cell `$procdff$1585' with negative edge clock.
-Creating register for signal `\DFFNR.\Q' using process `\DFFNR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367'.
+Creating register for signal `\DFFNR.\Q' using process `\DFFNR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367'.
   created $dff cell `$procdff$1586' with negative edge clock.
-Creating register for signal `\DFFNSE.\Q' using process `\DFFNSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365'.
+Creating register for signal `\DFFNSE.\Q' using process `\DFFNSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365'.
   created $dff cell `$procdff$1587' with negative edge clock.
-Creating register for signal `\DFFNS.\Q' using process `\DFFNS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363'.
+Creating register for signal `\DFFNS.\Q' using process `\DFFNS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363'.
   created $dff cell `$procdff$1588' with negative edge clock.
-Creating register for signal `\DFFNE.\Q' using process `\DFFNE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$361'.
+Creating register for signal `\DFFNE.\Q' using process `\DFFNE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$361'.
   created $dff cell `$procdff$1589' with negative edge clock.
-Creating register for signal `\DFFN.\Q' using process `\DFFN.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$359'.
+Creating register for signal `\DFFN.\Q' using process `\DFFN.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$359'.
   created $dff cell `$procdff$1590' with negative edge clock.
-Creating register for signal `\DFFCE.\Q' using process `\DFFCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
+Creating register for signal `\DFFCE.\Q' using process `\DFFCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
   created $adff cell `$procdff$1591' with positive edge clock and positive level reset.
-Creating register for signal `\DFFC.\Q' using process `\DFFC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355'.
+Creating register for signal `\DFFC.\Q' using process `\DFFC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355'.
   created $adff cell `$procdff$1592' with positive edge clock and positive level reset.
-Creating register for signal `\DFFPE.\Q' using process `\DFFPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
+Creating register for signal `\DFFPE.\Q' using process `\DFFPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
   created $adff cell `$procdff$1593' with positive edge clock and positive level reset.
-Creating register for signal `\DFFP.\Q' using process `\DFFP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351'.
+Creating register for signal `\DFFP.\Q' using process `\DFFP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351'.
   created $adff cell `$procdff$1594' with positive edge clock and positive level reset.
-Creating register for signal `\DFFRE.\Q' using process `\DFFRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349'.
+Creating register for signal `\DFFRE.\Q' using process `\DFFRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349'.
   created $dff cell `$procdff$1595' with positive edge clock.
-Creating register for signal `\DFFR.\Q' using process `\DFFR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347'.
+Creating register for signal `\DFFR.\Q' using process `\DFFR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347'.
   created $dff cell `$procdff$1596' with positive edge clock.
-Creating register for signal `\DFFSE.\Q' using process `\DFFSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345'.
+Creating register for signal `\DFFSE.\Q' using process `\DFFSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345'.
   created $dff cell `$procdff$1597' with positive edge clock.
-Creating register for signal `\DFFS.\Q' using process `\DFFS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343'.
+Creating register for signal `\DFFS.\Q' using process `\DFFS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343'.
   created $dff cell `$procdff$1598' with positive edge clock.
-Creating register for signal `\DFFE.\Q' using process `\DFFE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$341'.
+Creating register for signal `\DFFE.\Q' using process `\DFFE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$341'.
   created $dff cell `$procdff$1599' with positive edge clock.
-Creating register for signal `\DFF.\Q' using process `\DFF.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$339'.
+Creating register for signal `\DFF.\Q' using process `\DFF.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$339'.
   created $dff cell `$procdff$1600' with positive edge clock.
 Creating register for signal `$paramod\tick_generator\MAX_COUNT=s32'00000000000000000110100101111000.\tick' using process `$paramod\tick_generator\MAX_COUNT=s32'00000000000000000110100101111000.$proc$../design/tick_generator.sv:10$425'.
   created $adff cell `$procdff$1601' with positive edge clock and negative level reset.
@@ -614,61 +614,61 @@ Creating register for signal `\deb.\sync_ff' using process `\deb.$proc$../design
 13.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
 
 13.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
-Removing empty process `ALU.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
-Removing empty process `DFFNCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$378'.
-Found and cleaned up 1 empty switch in `\DFFNCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
-Removing empty process `DFFNCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
-Removing empty process `DFFNC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$376'.
-Removing empty process `DFFNC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375'.
-Removing empty process `DFFNPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$374'.
-Found and cleaned up 1 empty switch in `\DFFNPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
-Removing empty process `DFFNPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
-Removing empty process `DFFNP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$372'.
-Removing empty process `DFFNP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371'.
-Removing empty process `DFFNRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$370'.
-Found and cleaned up 2 empty switches in `\DFFNRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369'.
-Removing empty process `DFFNRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369'.
-Removing empty process `DFFNR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$368'.
-Found and cleaned up 1 empty switch in `\DFFNR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367'.
-Removing empty process `DFFNR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367'.
-Removing empty process `DFFNSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$366'.
-Found and cleaned up 2 empty switches in `\DFFNSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365'.
-Removing empty process `DFFNSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365'.
-Removing empty process `DFFNS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$364'.
-Found and cleaned up 1 empty switch in `\DFFNS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363'.
-Removing empty process `DFFNS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363'.
-Removing empty process `DFFNE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$362'.
-Found and cleaned up 1 empty switch in `\DFFNE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$361'.
-Removing empty process `DFFNE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$361'.
-Removing empty process `DFFN.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$360'.
-Removing empty process `DFFN.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$359'.
-Removing empty process `DFFCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$358'.
-Found and cleaned up 1 empty switch in `\DFFCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
-Removing empty process `DFFCE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
-Removing empty process `DFFC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$356'.
-Removing empty process `DFFC.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355'.
-Removing empty process `DFFPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$354'.
-Found and cleaned up 1 empty switch in `\DFFPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
-Removing empty process `DFFPE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
-Removing empty process `DFFP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$352'.
-Removing empty process `DFFP.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351'.
-Removing empty process `DFFRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$350'.
-Found and cleaned up 2 empty switches in `\DFFRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349'.
-Removing empty process `DFFRE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349'.
-Removing empty process `DFFR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$348'.
-Found and cleaned up 1 empty switch in `\DFFR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347'.
-Removing empty process `DFFR.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347'.
-Removing empty process `DFFSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$346'.
-Found and cleaned up 2 empty switches in `\DFFSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345'.
-Removing empty process `DFFSE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345'.
-Removing empty process `DFFS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$344'.
-Found and cleaned up 1 empty switch in `\DFFS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343'.
-Removing empty process `DFFS.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343'.
-Removing empty process `DFFE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$342'.
-Found and cleaned up 1 empty switch in `\DFFE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$341'.
-Removing empty process `DFFE.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$341'.
-Removing empty process `DFF.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$340'.
-Removing empty process `DFF.$proc$C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$339'.
+Removing empty process `ALU.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$381'.
+Removing empty process `DFFNCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$378'.
+Found and cleaned up 1 empty switch in `\DFFNCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
+Removing empty process `DFFNCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$377'.
+Removing empty process `DFFNC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$376'.
+Removing empty process `DFFNC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$375'.
+Removing empty process `DFFNPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$374'.
+Found and cleaned up 1 empty switch in `\DFFNPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
+Removing empty process `DFFNPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$373'.
+Removing empty process `DFFNP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$372'.
+Removing empty process `DFFNP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$371'.
+Removing empty process `DFFNRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$370'.
+Found and cleaned up 2 empty switches in `\DFFNRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369'.
+Removing empty process `DFFNRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$369'.
+Removing empty process `DFFNR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$368'.
+Found and cleaned up 1 empty switch in `\DFFNR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367'.
+Removing empty process `DFFNR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$367'.
+Removing empty process `DFFNSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$366'.
+Found and cleaned up 2 empty switches in `\DFFNSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365'.
+Removing empty process `DFFNSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$365'.
+Removing empty process `DFFNS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$364'.
+Found and cleaned up 1 empty switch in `\DFFNS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363'.
+Removing empty process `DFFNS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$363'.
+Removing empty process `DFFNE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$362'.
+Found and cleaned up 1 empty switch in `\DFFNE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$361'.
+Removing empty process `DFFNE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$361'.
+Removing empty process `DFFN.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$360'.
+Removing empty process `DFFN.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$359'.
+Removing empty process `DFFCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$358'.
+Found and cleaned up 1 empty switch in `\DFFCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
+Removing empty process `DFFCE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$357'.
+Removing empty process `DFFC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$356'.
+Removing empty process `DFFC.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$355'.
+Removing empty process `DFFPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$354'.
+Found and cleaned up 1 empty switch in `\DFFPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
+Removing empty process `DFFPE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$353'.
+Removing empty process `DFFP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$352'.
+Removing empty process `DFFP.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$351'.
+Removing empty process `DFFRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$350'.
+Found and cleaned up 2 empty switches in `\DFFRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349'.
+Removing empty process `DFFRE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$349'.
+Removing empty process `DFFR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$348'.
+Found and cleaned up 1 empty switch in `\DFFR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347'.
+Removing empty process `DFFR.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$347'.
+Removing empty process `DFFSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$346'.
+Found and cleaned up 2 empty switches in `\DFFSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345'.
+Removing empty process `DFFSE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$345'.
+Removing empty process `DFFS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$344'.
+Found and cleaned up 1 empty switch in `\DFFS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343'.
+Removing empty process `DFFS.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$343'.
+Removing empty process `DFFE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$342'.
+Found and cleaned up 1 empty switch in `\DFFE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$341'.
+Removing empty process `DFFE.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$341'.
+Removing empty process `DFF.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$340'.
+Removing empty process `DFF.$proc$C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$339'.
 Found and cleaned up 1 empty switch in `$paramod\tick_generator\MAX_COUNT=s32'00000000000000000110100101111000.$proc$../design/tick_generator.sv:10$425'.
 Removing empty process `$paramod\tick_generator\MAX_COUNT=s32'00000000000000000110100101111000.$proc$../design/tick_generator.sv:10$425'.
 Found and cleaned up 9 empty switches in `\teclado_decimal_input.$proc$../design/teclado_decimal_input.sv:43$142'.
@@ -1921,13 +1921,13 @@ using FF mapping for memory module_top_keyboard.$flatten\disp_ctrl.\bcd_decoder.
 
 13.9. Executing TECHMAP pass (map to technology primitives).
 
-13.9.1. Executing Verilog-2005 frontend: C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/lutrams_map.v
-Parsing Verilog input from `C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/lutrams_map.v' to AST representation.
+13.9.1. Executing Verilog-2005 frontend: C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/lutrams_map.v
+Parsing Verilog input from `C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/lutrams_map.v' to AST representation.
 Generating RTLIL representation for module `\$__GOWIN_LUTRAM_'.
 Successfully finished Verilog frontend.
 
-13.9.2. Executing Verilog-2005 frontend: C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/brams_map.v
-Parsing Verilog input from `C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/brams_map.v' to AST representation.
+13.9.2. Executing Verilog-2005 frontend: C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/brams_map.v
+Parsing Verilog input from `C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/brams_map.v' to AST representation.
 Generating RTLIL representation for module `\$__GOWIN_SP_'.
 Generating RTLIL representation for module `\$__GOWIN_DP_'.
 Generating RTLIL representation for module `\$__GOWIN_SDP_'.
@@ -2365,8 +2365,8 @@ Optimizing module module_top_keyboard.
 
 13.13. Executing TECHMAP pass (map to technology primitives).
 
-13.13.1. Executing Verilog-2005 frontend: C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/techmap.v
-Parsing Verilog input from `C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/techmap.v' to AST representation.
+13.13.1. Executing Verilog-2005 frontend: C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/techmap.v
+Parsing Verilog input from `C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/techmap.v' to AST representation.
 Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
 Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
 Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
@@ -2393,8 +2393,8 @@ Generating RTLIL representation for module `\_90_demux'.
 Generating RTLIL representation for module `\_90_lut'.
 Successfully finished Verilog frontend.
 
-13.13.2. Executing Verilog-2005 frontend: C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v
-Parsing Verilog input from `C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v' to AST representation.
+13.13.2. Executing Verilog-2005 frontend: C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v
+Parsing Verilog input from `C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v' to AST representation.
 Generating RTLIL representation for module `\_80_gw1n_alu'.
 Successfully finished Verilog frontend.
 
@@ -2522,8 +2522,8 @@ Removed 0 unused cells and 14 unused wires.
 
 13.18. Executing TECHMAP pass (map to technology primitives).
 
-13.18.1. Executing Verilog-2005 frontend: C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v
-Parsing Verilog input from `C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v' to AST representation.
+13.18.1. Executing Verilog-2005 frontend: C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v
+Parsing Verilog input from `C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v' to AST representation.
 Generating RTLIL representation for module `\$_DFF_N_'.
 Generating RTLIL representation for module `\$_DFF_P_'.
 Generating RTLIL representation for module `\$_DFFE_PP_'.
@@ -2598,8 +2598,8 @@ Removed 0 unused cells and 2841 unused wires.
 
 13.22. Executing TECHMAP pass (map to technology primitives).
 
-13.22.1. Executing Verilog-2005 frontend: C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v
-Parsing Verilog input from `C:\Users\coghi\DOWNLO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v' to AST representation.
+13.22.1. Executing Verilog-2005 frontend: C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v
+Parsing Verilog input from `C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v' to AST representation.
 Generating RTLIL representation for module `\$_DFF_N_'.
 Generating RTLIL representation for module `\$_DFF_P_'.
 Generating RTLIL representation for module `\$_DFFE_PP_'.
@@ -5985,6 +5985,6 @@ Found and reported 0 problems.
 
 13.30. Executing JSON backend.
 
-End of script. Logfile hash: 31dbd29471
+End of script. Logfile hash: fe4855159a
 Yosys 0.26+1 (git sha1 b1a011138, x86_64-w64-mingw32-g++ 9.2.1 -Os)
 Time spent: 1% 25x opt_expr (0 sec), 1% 21x read_verilog (0 sec), ...

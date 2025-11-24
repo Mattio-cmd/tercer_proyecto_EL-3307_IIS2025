@@ -20,13 +20,13 @@ IO_LOC  "b" 69;
 
 IO_LOC  "a" 57;
 
-IO_LOC  "columnas[0]" 39;
+IO_LOC  "columnas[0]" 38;
 
-IO_LOC  "columnas[1]" 36;
+IO_LOC  "columnas[1]" 37;
 
-IO_LOC  "columnas[2]" 37;
+IO_LOC  "columnas[2]" 36;
 
-IO_LOC  "columnas[3]" 38;
+IO_LOC  "columnas[3]" 39;
 
 IO_LOC  "filas[0]" 76;
 IO_PORT "filas[0]" PULL_MODE=DOWN;
