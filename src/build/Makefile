@@ -11,11 +11,11 @@ PROYECT = proyecto_3_IIS2025
 #Fuentes de diseno
 SOURCES := $(wildcard ../design/*.v ../design/*.sv) #Todas las fuentes .v o .sv que estan en design
 #Si quieren indicarlas una a una, pueden hacerlo como en este ejemplo:
-#SOURCES = ../design/module_top_deco_gray.v ../design/module_input_deco_gray.v 
+#SOURCES = ../design/module_top_deco_gray.v ../design/module_input_deco_gray.v
 
 #Fuente de simulacion
 #aca va el testbench que quieran simular
-TESTBENCH = ../sim/module_top_keyboard_tb.sv 
+TESTBENCH = ../sim/module_top_keyboard_tb.sv
 
 # Constraints para el proyecto
 #aca va el archivo de constraints del proyecto
@@ -35,13 +35,13 @@ all: synth pnr bitstream load
 # Synthesis
 synth: ${SOURCES}
 	@echo "Ejecutando la sintesis..."
-	@yosys -p "read_verilog -sv ${SOURCES}; synth_gowin -top ${TOP_DESIGN} -json ${PROYECT}.json" > synthesis_${BOARD}.log 2>&1 
+	@yosys -p "read_verilog -sv ${SOURCES}; synth_gowin -top ${TOP_DESIGN} -json ${PROYECT}.json" > synthesis_${BOARD}.log 2>&1
 	@echo "COMPLETADO"
 
 # Place and Route
 pnr: ${PROYECT}.json
 	@echo "Ejecutando el pnr..."
-	@nextpnr-gowin --json ${PROYECT}.json --write ${PROYECT}_pnr.json --freq 27 --device ${DEVICE} --family ${FAMILY} --cst ${CONSTRAINTS} > pnr_${BOARD}.log 2>&1 
+	@nextpnr-gowin --json ${PROYECT}.json --write ${PROYECT}_pnr.json --freq 27 --device ${DEVICE} --family ${FAMILY} --cst ${CONSTRAINTS} > pnr_${BOARD}.log 2>&1
 	@echo "COMPLETADO"
 
 # Generar el Bitstream
@@ -49,19 +49,19 @@ bitstream: ${PROYECT}_pnr.json
 	@echo "Generando ${PROYECT}_${BOARD}.fs"
 	@gowin_pack -d ${FAMILY} -o ${PROYECT}_${BOARD}.fs ${PROYECT}_pnr.json
 	@echo "COMPLETADO"
-		
+
 #Generar vcd con icarus verilog
 test: ${SOURCES} ${TESTBENCH}
 	@iverilog -o ${PROYECT}_test.o -s ${TOP_TB} -g2005-sv ${SOURCES} ${TESTBENCH}
-	@vvp ${PROYECT}_test.o 
-	
+	@vvp ${PROYECT}_test.o
+
 #Visualizar los diagramas de tiempo con GTKWave
 wv: ${VCD_FILE}
-	gtkwave ${VCD_FILE} 
-        
+	gtkwave ${VCD_FILE}
+
 # Cargar el bitstream en la FPGA
 load: ${PROYECT}_${BOARD}.fs
-	openFPGALoader -b ${BOARD} ${PROYECT}_${BOARD}.fs 
+	openFPGALoader -b ${BOARD} ${PROYECT}_${BOARD}.fs
 
 .PHONY: load  wv
 .INTERMEDIATE: ${PROYECT}_pnr.json ${PROYECT}.json
