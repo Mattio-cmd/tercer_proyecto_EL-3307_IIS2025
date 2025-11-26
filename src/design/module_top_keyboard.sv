@@ -26,9 +26,6 @@ module module_top_keyboard (
     // --- Señales de división ---
     logic [7:0] div_Q;   // cociente (Q)
     logic [7:0] div_R;   // resto (R)
-    logic div_valid;      // Inicia la división
-    logic div_done;       // División completada
-    logic div_error;      // Error (división por cero)
 
     logic [15:0] display_value;
 
@@ -82,34 +79,19 @@ module module_top_keyboard (
         .listo(listo)
     );
 
-    // NUEVO: Instancia del divisor secuencial
-    divisor_secuencial #(.N(8)) divisor_seq_inst (
-        .clk(clk),
-        .rst(rst),
-        .valid(div_valid),
+    // --- Instanciamos aquí el divisor combinacional N=8 ---
+    // Usa decimal_out1 como A (dividendo) y decimal_out2 como B (divisor).
+    // Q = cociente (8 bits), R = resto (8 bits).
+    divisor #(.N(8)) divisor_inst (
         .A(decimal_out1[7:0]),
         .B(decimal_out2[7:0]),
         .Q(div_Q),
-        .R(div_R),
-        .done(div_done),
-        .error(div_error)
+        .R(div_R)
     );
 
-    // Control de inicio de división (genera pulso de valid)
-    logic multi_prev;
-    always_ff @(posedge clk) begin
-        if (!rst) begin
-            multi_prev <= 1'b0;
-            div_valid <= 1'b0;
-        end
-        else begin
-            multi_prev <= multi;
-            // Detectar flanco positivo de 'multi' (tecla D presionada)
-            div_valid <= multi && !multi_prev;
-        end
-    end
-
-    // Actualización del display_value (registro) según señales de control
+    // Actualización del display_value (registro) según señales de control existentes.
+    // Si show_mult está activo mostramos el cociente (div_Q) ampliado a 16 bits.
+    // Mantengo las otras opciones showA / showB igual que antes.
     always_ff @(posedge clk) begin
         if (!rst)
             display_value <= 16'd0;
@@ -130,7 +112,6 @@ module module_top_keyboard (
         .bcd_ones(bcd_ones)
     );
 
-    // Controlador de display
     display_controller disp_ctrl (
         .clk(clk),
         .rst(rst),
@@ -144,6 +125,6 @@ module module_top_keyboard (
     );
 
     assign {a, b, c, d, e, f, g} = seg;
-    assign led = (div_error) ? 4'b1010 : key;
+    assign led = key;
 
 endmodule

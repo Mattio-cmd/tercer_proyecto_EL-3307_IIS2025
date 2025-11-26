@@ -10,7 +10,7 @@ module scanner ( //barrido de columnas
         if (!rst) begin
             col_shift_reg <= 4'b0001;    // Inicializar activando la primera columna
             column_index <= 2'b0;        // Inicializar el índice de columna
-        end else if (!key_pressed) begin      
+        end else if (!key_pressed) begin
             // Desplazar el bit activo hacia la siguiente columna
             col_shift_reg <= {col_shift_reg[2:0], col_shift_reg[3]};
             column_index <= column_index + 1;  // Incrementar el índice de columna

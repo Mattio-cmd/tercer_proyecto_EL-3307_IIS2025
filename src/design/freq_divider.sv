@@ -1,7 +1,7 @@
 module freq_divider (
    input logic clk,         // Entrada del reloj (27 MHz)
     input logic rst,         // Señal de reinicio
-    output logic slow_clk    // Salida del reloj lento 
+    output logic slow_clk    // Salida del reloj lento
 );
     // Contador que se usa para dividir el reloj
     logic [32:0] clk_divider_counter;
