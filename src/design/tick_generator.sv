@@ -15,7 +15,7 @@ module tick_generator #(parameter MAX_COUNT = 27000) ( //modulo encargado de gen
         else begin
             if (count == MAX_COUNT - 1) begin
                 count <= '0;
-                tick  <= 1'b1;     // e activa el tick una vez el contador alcanza el maximo 
+                tick  <= 1'b1;     // e activa el tick una vez el contador alcanza el maximo
             end
             else begin
                 count <= count + 1;

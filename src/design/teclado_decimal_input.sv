@@ -83,10 +83,10 @@ module teclado_decimal_input (
                             CAPTURA_SEGUNDO: begin
                                 listo <= 1;
                                 estado <= NUMEROS_LISTOS;
-                                
+
                             end
                             NUMEROS_LISTOS: begin
-                            estado <= OPERAR;                              
+                            estado <= OPERAR;
 
                             end
                         endcase
@@ -131,20 +131,3 @@ module teclado_decimal_input (
     assign suma_out = decimal_out1 + decimal_out2;
 
 endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

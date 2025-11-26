@@ -1,14 +1,12 @@
-    module module_top_keyboard (
+module module_top_keyboard (
     input logic clk,
     input logic rst,
     input logic [3:0] filas,
     output logic [3:0] columnas,
     output logic [3:0] led,
     output logic [3:0] anodo,
-    output logic [15:0] suma_out, // ya no se usa como suma
+    output logic [15:0] suma_out, // ya no se usa como suma (se mantiene por compatibilidad)
     output logic a, b, c, d, e, f, g
-    
-
 );
 
     logic slow_clk;
@@ -20,18 +18,14 @@
     logic [7:0] decimal_out1;
     logic [7:0] decimal_out2;
     logic listo;
-    logic multi;
+    logic multi;                    // se puede usar como "start division" desde teclado
     logic [3:0] bcd_thousands, bcd_hundreds, bcd_tens, bcd_ones;
-    logic showA, showB, show_mult;
+    logic showA, showB, show_mult;  // show_mult ahora sirve para mostrar DIV (mantengo nombre para compat)
     logic [6:0] seg;
 
-
-    logic  [15:0] mult_result;
-    logic  [15:0] y;
-    logic valid_mult;
-    logic  [15:0] abs_result;
-    logic done;
-
+    // --- Señales de división ---
+    logic [7:0] div_Q;   // cociente (Q)
+    logic [7:0] div_R;   // resto (R)
 
     logic [15:0] display_value;
 
@@ -79,46 +73,34 @@
         .decimal_out2(decimal_out2),
         .showA(showA),
         .showB(showB),
-        .show_mult(show_mult),
-        .multi(multi),
-        .suma_out(suma_out), // no se usa pero se deja por compatibilidad
+        .show_mult(show_mult), // señal reutilizada para "mostrar resultado de DIV"
+        .multi(multi),         // señal usada para indicar inicio de la operación desde el teclado
+        .suma_out(suma_out),   // no usada pero mantenida
         .listo(listo)
     );
 
-    // BoothMul instanciado
-    /*BoothMul booth_inst (   
-        .clk(clk),
-        .rst(rst),
-        .start(multi),
+    // --- Instanciamos aquí el divisor combinacional N=8 ---
+    // Usa decimal_out1 como A (dividendo) y decimal_out2 como B (divisor).
+    // Q = cociente (8 bits), R = resto (8 bits).
+    divisor #(.N(8)) divisor_inst (
         .A(decimal_out1[7:0]),
         .B(decimal_out2[7:0]),
-        .Y(mult_result),
-        .valid(valid_mult)
-    );*/
-
-    mult_with_no_sm ult_with_no_sm_inst (
-        .clk(clk),
-        .rst(rst),
-        .start(multi),
-        .a(decimal_out1[7:0]),
-        .b(decimal_out2[7:0]),
-        .done(done),
-        .y(y)
-
+        .Q(div_Q),
+        .R(div_R)
     );
 
-
-
-
+    // Actualización del display_value (registro) según señales de control existentes.
+    // Si show_mult está activo mostramos el cociente (div_Q) ampliado a 16 bits.
+    // Mantengo las otras opciones showA / showB igual que antes.
     always_ff @(posedge clk) begin
         if (!rst)
             display_value <= 16'd0;
-        else if (show_mult)
-            display_value <= y;
+        else if (show_mult)               // ahora interpreta show_mult como "mostrar DIV"
+            display_value <= {8'd0, div_Q}; // mostramos el cociente en los 16 bits bajos (o altos según preferencia)
         else if (showA)
-            display_value <= decimal_out1;
+            display_value <= {8'd0, decimal_out1};
         else if (showB)
-            display_value <= decimal_out2;
+            display_value <= {8'd0, decimal_out2};
     end
 
     // Conversor binario a BCD
