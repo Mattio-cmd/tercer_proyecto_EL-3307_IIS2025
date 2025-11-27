@@ -14,7 +14,7 @@ module divisor_secuencial #(
 
     // Registros internos
     logic [N-1:0]   divisor_reg;
-    logic [2*N-1:0] acumulador;   // [resto | cociente]
+    logic [2*N-1:0] acumulador;   
     logic [N:0]     contador;
     logic           div_by_zero;
 

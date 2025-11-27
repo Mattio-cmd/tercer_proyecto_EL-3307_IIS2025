@@ -42,24 +42,24 @@ Info:     at initial placer iter 1, wirelen = 1802
 Info:     at initial placer iter 2, wirelen = 1639
 Info:     at initial placer iter 3, wirelen = 1633
 Info: Running main analytical placer, max placement attempts per cell = 1467184.
-Info:     at iteration #1, type SLICE: wirelen solved = 1975, spread = 11536, legal = 11552; time = 0.02s
-Info:     at iteration #1, type MUX2_LUT7: wirelen solved = 11479, spread = 12153, legal = 12184; time = 0.01s
+Info:     at iteration #1, type SLICE: wirelen solved = 1975, spread = 11536, legal = 11552; time = 0.01s
+Info:     at iteration #1, type MUX2_LUT7: wirelen solved = 11479, spread = 12153, legal = 12184; time = 0.02s
 Info:     at iteration #1, type VCC: wirelen solved = 12184, spread = 12184, legal = 12184; time = 0.01s
 Info:     at iteration #1, type MUX2_LUT6: wirelen solved = 12108, spread = 12336, legal = 12332; time = 0.01s
 Info:     at iteration #1, type MUX2_LUT8: wirelen solved = 12013, spread = 12419, legal = 12647; time = 0.01s
 Info:     at iteration #1, type MUX2_LUT5: wirelen solved = 12371, spread = 12531, legal = 12533; time = 0.01s
 Info:     at iteration #1, type GND: wirelen solved = 12533, spread = 12533, legal = 12533; time = 0.01s
 Info:     at iteration #1, type GSR: wirelen solved = 12533, spread = 12533, legal = 12533; time = 0.01s
-Info:     at iteration #1, type ALL: wirelen solved = 1959, spread = 10755, legal = 11027; time = 0.02s
+Info:     at iteration #1, type ALL: wirelen solved = 1959, spread = 10755, legal = 11027; time = 0.04s
 Info:     at iteration #2, type SLICE: wirelen solved = 5063, spread = 9727, legal = 9896; time = 0.02s
 Info:     at iteration #2, type MUX2_LUT7: wirelen solved = 9507, spread = 9734, legal = 9790; time = 0.01s
 Info:     at iteration #2, type VCC: wirelen solved = 9790, spread = 9790, legal = 9790; time = 0.01s
 Info:     at iteration #2, type MUX2_LUT6: wirelen solved = 9674, spread = 9775, legal = 9788; time = 0.01s
-Info:     at iteration #2, type MUX2_LUT8: wirelen solved = 9428, spread = 9438, legal = 9522; time = 0.01s
+Info:     at iteration #2, type MUX2_LUT8: wirelen solved = 9428, spread = 9438, legal = 9522; time = 0.02s
 Info:     at iteration #2, type MUX2_LUT5: wirelen solved = 9241, spread = 9278, legal = 9281; time = 0.01s
 Info:     at iteration #2, type GND: wirelen solved = 9281, spread = 9281, legal = 9281; time = 0.01s
 Info:     at iteration #2, type GSR: wirelen solved = 9281, spread = 9281, legal = 9281; time = 0.01s
-Info:     at iteration #2, type ALL: wirelen solved = 2143, spread = 12431, legal = 12617; time = 0.02s
+Info:     at iteration #2, type ALL: wirelen solved = 2143, spread = 12431, legal = 12617; time = 0.03s
 Info:     at iteration #3, type SLICE: wirelen solved = 4897, spread = 9478, legal = 9760; time = 0.02s
 Info:     at iteration #3, type MUX2_LUT7: wirelen solved = 9310, spread = 9592, legal = 9678; time = 0.01s
 Info:     at iteration #3, type VCC: wirelen solved = 9678, spread = 9678, legal = 9678; time = 0.01s
@@ -69,7 +69,7 @@ Info:     at iteration #3, type MUX2_LUT5: wirelen solved = 9169, spread = 9310,
 Info:     at iteration #3, type GND: wirelen solved = 9321, spread = 9321, legal = 9321; time = 0.01s
 Info:     at iteration #3, type GSR: wirelen solved = 9321, spread = 9321, legal = 9321; time = 0.01s
 Info:     at iteration #3, type ALL: wirelen solved = 2512, spread = 9065, legal = 9427; time = 0.03s
-Info:     at iteration #4, type SLICE: wirelen solved = 4781, spread = 8195, legal = 8515; time = 0.01s
+Info:     at iteration #4, type SLICE: wirelen solved = 4781, spread = 8195, legal = 8515; time = 0.02s
 Info:     at iteration #4, type MUX2_LUT7: wirelen solved = 8186, spread = 8475, legal = 8535; time = 0.01s
 Info:     at iteration #4, type VCC: wirelen solved = 8535, spread = 8535, legal = 8535; time = 0.01s
 Info:     at iteration #4, type MUX2_LUT6: wirelen solved = 8417, spread = 8522, legal = 8525; time = 0.01s
@@ -104,8 +104,8 @@ Info:     at iteration #7, type MUX2_LUT8: wirelen solved = 8009, spread = 8017,
 Info:     at iteration #7, type MUX2_LUT5: wirelen solved = 7882, spread = 8050, legal = 8052; time = 0.01s
 Info:     at iteration #7, type GND: wirelen solved = 8052, spread = 8052, legal = 8052; time = 0.01s
 Info:     at iteration #7, type GSR: wirelen solved = 8052, spread = 8052, legal = 8052; time = 0.01s
-Info:     at iteration #7, type ALL: wirelen solved = 3179, spread = 8558, legal = 8882; time = 0.02s
-Info:     at iteration #8, type SLICE: wirelen solved = 5239, spread = 8863, legal = 9092; time = 0.01s
+Info:     at iteration #7, type ALL: wirelen solved = 3179, spread = 8558, legal = 8882; time = 0.03s
+Info:     at iteration #8, type SLICE: wirelen solved = 5239, spread = 8863, legal = 9092; time = 0.02s
 Info:     at iteration #8, type MUX2_LUT7: wirelen solved = 8435, spread = 8886, legal = 8981; time = 0.01s
 Info:     at iteration #8, type VCC: wirelen solved = 8981, spread = 8981, legal = 8981; time = 0.01s
 Info:     at iteration #8, type MUX2_LUT6: wirelen solved = 8808, spread = 8899, legal = 8919; time = 0.01s
@@ -123,7 +123,7 @@ Info:     at iteration #9, type MUX2_LUT5: wirelen solved = 7869, spread = 8048,
 Info:     at iteration #9, type GND: wirelen solved = 8074, spread = 8074, legal = 8074; time = 0.01s
 Info:     at iteration #9, type GSR: wirelen solved = 8074, spread = 8074, legal = 8074; time = 0.01s
 Info:     at iteration #9, type ALL: wirelen solved = 3471, spread = 7983, legal = 8223; time = 0.02s
-Info:     at iteration #10, type SLICE: wirelen solved = 5099, spread = 7420, legal = 7802; time = 0.01s
+Info:     at iteration #10, type SLICE: wirelen solved = 5099, spread = 7420, legal = 7802; time = 0.02s
 Info:     at iteration #10, type MUX2_LUT7: wirelen solved = 7513, spread = 7765, legal = 7848; time = 0.01s
 Info:     at iteration #10, type VCC: wirelen solved = 7848, spread = 7848, legal = 7848; time = 0.01s
 Info:     at iteration #10, type MUX2_LUT6: wirelen solved = 7745, spread = 7814, legal = 7819; time = 0.01s
@@ -141,7 +141,7 @@ Info:     at iteration #11, type MUX2_LUT5: wirelen solved = 7648, spread = 7831
 Info:     at iteration #11, type GND: wirelen solved = 7841, spread = 7841, legal = 7841; time = 0.01s
 Info:     at iteration #11, type GSR: wirelen solved = 7841, spread = 7841, legal = 7841; time = 0.01s
 Info:     at iteration #11, type ALL: wirelen solved = 3692, spread = 8220, legal = 8447; time = 0.02s
-Info:     at iteration #12, type SLICE: wirelen solved = 5225, spread = 9187, legal = 9437; time = 0.01s
+Info:     at iteration #12, type SLICE: wirelen solved = 5225, spread = 9187, legal = 9437; time = 0.02s
 Info:     at iteration #12, type MUX2_LUT7: wirelen solved = 9064, spread = 9343, legal = 9375; time = 0.01s
 Info:     at iteration #12, type VCC: wirelen solved = 9375, spread = 9375, legal = 9375; time = 0.01s
 Info:     at iteration #12, type MUX2_LUT6: wirelen solved = 9261, spread = 9351, legal = 9371; time = 0.01s
@@ -186,7 +186,7 @@ Info:     at iteration #16, type MUX2_LUT5: wirelen solved = 8258, spread = 8434
 Info:     at iteration #16, type GND: wirelen solved = 8471, spread = 8471, legal = 8471; time = 0.01s
 Info:     at iteration #16, type GSR: wirelen solved = 8471, spread = 8471, legal = 8471; time = 0.01s
 Info:     at iteration #16, type ALL: wirelen solved = 4713, spread = 7880, legal = 8096; time = 0.02s
-Info:     at iteration #17, type SLICE: wirelen solved = 5664, spread = 7856, legal = 8166; time = 0.01s
+Info:     at iteration #17, type SLICE: wirelen solved = 5664, spread = 7856, legal = 8166; time = 0.02s
 Info:     at iteration #17, type MUX2_LUT7: wirelen solved = 7869, spread = 8216, legal = 8308; time = 0.01s
 Info:     at iteration #17, type VCC: wirelen solved = 8308, spread = 8308, legal = 8308; time = 0.01s
 Info:     at iteration #17, type MUX2_LUT6: wirelen solved = 8243, spread = 8243, legal = 8282; time = 0.01s
@@ -194,11 +194,11 @@ Info:     at iteration #17, type MUX2_LUT8: wirelen solved = 8265, spread = 8265
 Info:     at iteration #17, type MUX2_LUT5: wirelen solved = 8059, spread = 8177, legal = 8179; time = 0.01s
 Info:     at iteration #17, type GND: wirelen solved = 8179, spread = 8179, legal = 8179; time = 0.01s
 Info:     at iteration #17, type GSR: wirelen solved = 8179, spread = 8179, legal = 8179; time = 0.01s
-Info:     at iteration #17, type ALL: wirelen solved = 4630, spread = 7801, legal = 8073; time = 0.02s
-Info: HeAP Placer Time: 1.80s
-Info:   of which solving equations: 1.26s
-Info:   of which spreading cells: 0.12s
-Info:   of which strict legalisation: 0.23s
+Info:     at iteration #17, type ALL: wirelen solved = 4630, spread = 7801, legal = 8073; time = 0.03s
+Info: HeAP Placer Time: 2.10s
+Info:   of which solving equations: 1.49s
+Info:   of which spreading cells: 0.13s
+Info:   of which strict legalisation: 0.25s
 
 Info: Running simulated annealing placer for refinement.
 Info:   at iteration #1: temp = 0.000000, timing cost = 241, wirelen = 7871
@@ -207,7 +207,7 @@ Info:   at iteration #10: temp = 0.000000, timing cost = 125, wirelen = 4730
 Info:   at iteration #15: temp = 0.000000, timing cost = 116, wirelen = 4606
 Info:   at iteration #20: temp = 0.000000, timing cost = 115, wirelen = 4513
 Info:   at iteration #24: temp = 0.000000, timing cost = 105, wirelen = 4488 
-Info: SA placement time 4.13s
+Info: SA placement time 4.68s
 
 Info: Max frequency for clock 'debounce_1_inst.clk': 32.62 MHz (PASS at 27.00 MHz)
 Info: Max frequency for clock            'slow_clk': 794.91 MHz (PASS at 27.00 MHz)
@@ -253,6 +253,467 @@ Info: Setting up routing queue.
 Info: Routing 7993 arcs.
 Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
 Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
-Info:       1000 |      241        758 |  241   758 |      7261|       0.26       0.26|
-Info:       2000 |      275       1724 |   34   966 |      6300|       6.22       6.48|
-Info:       3000 |      292       2707 |   17   983 |      5324|       6.84      13.32|
+Info:       1000 |      241        758 |  241   758 |      7261|       0.37       0.37|
+Info:       2000 |      275       1724 |   34   966 |      6300|       4.41       4.78|
+Info:       3000 |      292       2707 |   17   983 |      5324|       5.21       9.99|
+Info:       4000 |      350       3649 |   58   942 |      4419|       4.61      14.59|
+Info:       5000 |      428       4571 |   78   922 |      3540|       4.70      19.30|
+Info:       6000 |      518       5481 |   90   910 |      2690|       4.44      23.74|
+Info:       7000 |      641       6358 |  123   877 |      1943|       4.53      28.27|
+Info:       8000 |      785       7214 |  144   856 |      1175|       4.26      32.53|
+Info:       9000 |      972       8027 |  187   813 |       512|       3.82      36.35|
+Info:       9777 |     1097       8680 |  125   653 |         0|       3.01      39.36|
+Info: Routing complete.
+Info: Router1 time 39.36s
+Info: Checksum: 0x9ed8f9ae
+
+Info: Critical path report for clock 'debounce_1_inst.clk' (posedge -> posedge):
+Info: curr total
+Info:  0.5  0.5  Source teclado_decimal_inst.acumulador2_DFFRE_Q_D_LUT2_F_LC.Q
+Info:  0.5  0.9    Net decimal_out2[7] budget 36.579037 ns (11,14) -> (11,13)
+Info:                Sink display_value_DFFRE_Q_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_I0_ALU_SUM_ALULC.B
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:74.27-87.6
+Info:                  ../design/teclado_decimal_input.sv:7.24-7.36
+Info:  1.1  2.0  Source display_value_DFFRE_Q_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_I0_ALU_SUM_ALULC.F
+Info:  0.3  2.4    Net display_value_DFFRE_Q_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_I0[7] budget 17.740519 ns (11,13) -> (11,13)
+Info:                Sink display_value_DFFRE_Q_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT2_I0_LC.B
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:34.28-34.29
+Info:  1.1  3.5  Source display_value_DFFRE_Q_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT2_I0_LC.F
+Info:  0.8  4.3    Net display_value_DFFRE_Q_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F[8] budget 11.461013 ns (11,13) -> (9,13)
+Info:                Sink display_value_DFFRE_Q_1_D_MUX2_LUT5_O_I1_LUT1_F_I0_ALU_SUM_ALULC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:30.24-30.25
+Info:  1.0  5.3  Source display_value_DFFRE_Q_1_D_MUX2_LUT5_O_I1_LUT1_F_I0_ALU_SUM_ALULC.F
+Info:  0.3  5.6    Net display_value_DFFRE_Q_1_D_MUX2_LUT5_O_I1_LUT1_F_I0[2] budget 8.338009 ns (9,13) -> (9,13)
+Info:                Sink display_value_DFFRE_Q_1_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_LC.C
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:34.28-34.29
+Info:  0.8  6.4  Source display_value_DFFRE_Q_1_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_LC.F
+Info:  0.9  7.3    Net display_value_DFFRE_Q_1_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F[8] budget 6.464208 ns (9,13) -> (9,14)
+Info:                Sink display_value_DFFRE_Q_2_D_MUX2_LUT5_O_I1_LUT1_F_I0_ALU_SUM_ALULC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:30.24-30.25
+Info:  1.0  8.4  Source display_value_DFFRE_Q_2_D_MUX2_LUT5_O_I1_LUT1_F_I0_ALU_SUM_ALULC.F
+Info:  0.9  9.3    Net display_value_DFFRE_Q_2_D_MUX2_LUT5_O_I1_LUT1_F_I0[2] budget 5.215006 ns (9,14) -> (7,14)
+Info:                Sink display_value_DFFRE_Q_2_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_3_LC.C
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:34.28-34.29
+Info:  0.8 10.1  Source display_value_DFFRE_Q_2_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_3_LC.F
+Info:  0.9 11.0    Net display_value_DFFRE_Q_2_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F[5] budget 4.322720 ns (7,14) -> (6,14)
+Info:                Sink display_value_DFFRE_Q_2_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F_ALU_I0_2_ALULC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:30.24-30.25
+Info:  1.0 12.0  Source display_value_DFFRE_Q_2_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F_ALU_I0_2_ALULC.F
+Info:  0.3 12.3    Net display_value_DFFRE_Q_3_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_I0[5] budget 3.653505 ns (6,14) -> (6,14)
+Info:                Sink display_value_DFFRE_Q_3_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_2_LC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:34.28-34.29
+Info:  1.0 13.4  Source display_value_DFFRE_Q_3_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_2_LC.F
+Info:  0.8 14.2    Net display_value_DFFRE_Q_3_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F[6] budget 3.133004 ns (6,14) -> (4,14)
+Info:                Sink display_value_DFFRE_Q_3_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F_ALU_I0_1_ALULC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:30.24-30.25
+Info:  1.0 15.2  Source display_value_DFFRE_Q_3_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F_ALU_I0_1_ALULC.F
+Info:  0.4 15.6    Net display_value_DFFRE_Q_4_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_I0[6] budget 2.716604 ns (4,14) -> (4,14)
+Info:                Sink display_value_DFFRE_Q_4_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_1_LC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:34.28-34.29
+Info:  1.0 16.6  Source display_value_DFFRE_Q_4_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_1_LC.F
+Info:  0.5 17.1    Net display_value_DFFRE_Q_4_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F[7] budget 2.375912 ns (4,14) -> (4,16)
+Info:                Sink display_value_DFFRE_Q_4_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F_ALU_I0_ALULC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:30.24-30.25
+Info:  1.0 18.1  Source display_value_DFFRE_Q_4_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F_ALU_I0_ALULC.F
+Info:  0.3 18.5    Net display_value_DFFRE_Q_5_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_I0[7] budget 2.092003 ns (4,16) -> (4,16)
+Info:                Sink display_value_DFFRE_Q_5_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_LC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:34.28-34.29
+Info:  1.0 19.5  Source display_value_DFFRE_Q_5_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_LC.F
+Info:  0.4 19.9    Net display_value_DFFRE_Q_5_D_MUX2_LUT5_O_I1_LUT1_F_I0_LUT3_I2_F[8] budget 1.851772 ns (4,16) -> (4,17)
+Info:                Sink divisor_inst.R_sig_LUT3_F_I2_ALU_SUM_ALULC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:19.17-19.26
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:30.24-30.25
+Info:  1.0 20.9  Source divisor_inst.R_sig_LUT3_F_I2_ALU_SUM_ALULC.F
+Info:  0.3 21.3    Net divisor_inst.R_sig_LUT3_F_I0[8] budget 1.645860 ns (4,17) -> (4,17)
+Info:                Sink divisor_inst.R_sig_LUT3_F_LC.C
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  0.8 22.1  Source divisor_inst.R_sig_LUT3_F_LC.F
+Info:  0.8 22.9    Net divisor_inst.R_sig[8] budget 1.467402 ns (4,17) -> (4,19)
+Info:                Sink divisor_inst.D_ALU_SUM_ALULC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:10.25-10.30
+Info:  1.0 23.9  Source divisor_inst.D_ALU_SUM_ALULC.F
+Info:  0.4 24.3    Net divisor_inst.D[8] budget 1.311252 ns (4,19) -> (5,19)
+Info:                Sink display_value_DFFRE_Q_7_D_MUX2_LUT5_O_I1_LUT1_F_LC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:92.22-97.6
+Info:                  ../design/divisor.sv:10.32-10.33
+Info:  1.0 25.4  Source display_value_DFFRE_Q_7_D_MUX2_LUT5_O_I1_LUT1_F_LC.F
+Info:  0.3 25.7    Net display_value_DFFRE_Q_7_D_MUX2_LUT5_O_I1 budget 1.098446 ns (5,19) -> (5,19)
+Info:                Sink display_value_DFFRE_Q_7_D_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 25.9  Source display_value_DFFRE_Q_7_D_MUX2_LUT5_O_LC.OF
+Info:  0.4 26.3    Net display_value_DFFRE_Q_7_D budget 1.098446 ns (5,19) -> (5,19)
+Info:                Sink display_value_DFFRE_Q_7_DFFLC.A
+Info:  0.0 26.3  Setup display_value_DFFRE_Q_7_DFFLC.A
+Info: 16.6 ns logic, 9.7 ns routing
+
+Info: Critical path report for clock 'slow_clk' (posedge -> posedge):
+Info: curr total
+Info:  0.5  0.5  Source scanner_inst.col_shift_reg_DFFRE_Q_1_DFFLC.Q
+Info:  0.5  0.9    Net decoder_inst.col_shift_reg[2] budget 36.579037 ns (15,16) -> (14,16)
+Info:                Sink scanner_inst.col_shift_reg_DFFRE_Q_DFFLC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:57.13-63.6
+Info:                  ../design/scanner.sv:5.24-5.37
+Info:  0.0  0.9  Setup scanner_inst.col_shift_reg_DFFRE_Q_DFFLC.A
+Info: 0.5 ns logic, 0.5 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> '<async>':
+Info: curr total
+Info:  0.0  0.0  Source debounce_1_inst.reset_IBUF_O$iob.O
+Info: 11.0 11.0    Net debounce_1_inst.reset budget 37.037037 ns (1,0) -> (36,10)
+Info:                Sink disp_ctrl.digit_index_DFFRE_Q_1_RESET_LUT1_F_LC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:74.27-87.6
+Info:                  ../design/teclado_decimal_input.sv:3.17-3.20
+Info:  0.0 11.0  Setup disp_ctrl.digit_index_DFFRE_Q_1_RESET_LUT1_F_LC.A
+Info: 0.0 ns logic, 11.0 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge debounce_1_inst.clk':
+Info: curr total
+Info:  0.0  0.0  Source debounce_1_inst.reset_IBUF_O$iob.O
+Info:  7.0  7.0    Net debounce_1_inst.reset budget 37.037037 ns (1,0) -> (15,14)
+Info:                Sink teclado_decimal_inst.estado_DFF_Q_3_D_LUT3_F_I2_LUT3_F_LC.C
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:74.27-87.6
+Info:                  ../design/teclado_decimal_input.sv:3.17-3.20
+Info:  0.8  7.9  Source teclado_decimal_inst.estado_DFF_Q_3_D_LUT3_F_I2_LUT3_F_LC.F
+Info:  0.4  8.3    Net teclado_decimal_inst.estado_DFF_Q_3_D_LUT3_F_I2[1] budget 4.532577 ns (15,14) -> (16,14)
+Info:                Sink teclado_decimal_inst.estado_DFF_Q_3_D_LUT3_F_I0_LUT2_I0_1_LC.B
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1  9.4  Source teclado_decimal_inst.estado_DFF_Q_3_D_LUT3_F_I0_LUT2_I0_1_LC.F
+Info:  0.0  9.4    Net teclado_decimal_inst.estado_DFF_Q_3_D_LUT3_F_I0_LUT2_I0_F[2] budget 3.828755 ns (16,14) -> (16,14)
+Info:                Sink teclado_decimal_inst.estado_DFF_Q_1_D_LUT4_F_LC.C
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  0.0  9.4  Setup teclado_decimal_inst.estado_DFF_Q_1_D_LUT4_F_LC.C
+Info: 1.9 ns logic, 7.4 ns routing
+
+Info: Critical path report for cross-domain path 'posedge debounce_1_inst.clk' -> '<async>':
+Info: curr total
+Info:  0.5  0.5  Source display_value_DFFRE_Q_5_DFFLC.Q
+Info:  4.6  5.1    Net display_value[2] budget 36.579037 ns (5,16) -> (15,8)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT4_F_LC.B
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:114.16-120.6
+Info:                  ../design/bin_to_bcd.sv:2.25-2.31
+Info:  1.1  6.2  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT4_F_LC.F
+Info:  0.3  6.5    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0 budget 5.618506 ns (15,8) -> (15,8)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I0
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.9-151.11
+Info:  0.2  6.7  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3  7.0    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 5.618506 ns (15,8) -> (15,8)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4  7.4  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3  7.7    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_I1 budget 5.618506 ns (15,8) -> (15,8)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5  8.2  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1_MUX2_LUT7_O_LC.OF
+Info:  0.3  8.6    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_I1 budget 5.618506 ns (15,8) -> (15,8)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:169.13-169.15
+Info:  0.7  9.3  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_4_SUM_MUX2_LUT8_O_2_LC.OF
+Info:  1.8 11.0    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2[6] budget 5.618506 ns (15,8) -> (15,3)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_3_SUM_LUT3_I0_LC.B
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1 12.1  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_3_SUM_LUT3_I0_LC.F
+Info:  0.3 12.5    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_3_SUM_LUT3_I0_F budget 3.564671 ns (15,3) -> (15,3)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_3_SUM_LUT3_I0_F_MUX2_LUT5_I1_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 12.6  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_3_SUM_LUT3_I0_F_MUX2_LUT5_I1_LC.OF
+Info:  0.3 13.0    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_3_SUM_LUT3_I0_F_MUX2_LUT5_I1_O budget 3.564671 ns (15,3) -> (15,3)
+Info:                Sink bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_LUT2_F_1_I1_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT4_F_I1_LUT3_F_I0_LUT4_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_O_1_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 13.3  Source bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_LUT2_F_1_I1_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT4_F_I1_LUT3_F_I0_LUT4_I0_F_MUX2_LUT5_I0_O_MUX2_LUT6_O_1_LC.OF
+Info:  2.2 15.6    Net bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_LUT2_F_1_I1_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT3_I1_F[6] budget 3.564671 ns (15,3) -> (20,4)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_LUT4_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.A
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0 16.6  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_LUT4_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 16.9    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_LUT4_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 2.537753 ns (20,4) -> (20,4)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_LUT4_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 17.1  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_LUT4_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 17.4    Net disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_LUT4_I0_F_MUX2_LUT6_O_I1 budget 2.537753 ns (20,4) -> (20,4)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_LUT4_I0_F_MUX2_LUT6_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 17.8  Source disp_ctrl.digit_index_LUT4_I2_I0_MUX2_LUT5_O_I0_LUT4_F_I2_ALU_SUM_COUT_ALU_COUT_2_SUM_LUT1_I0_F_MUX2_LUT5_I1_O_MUX2_LUT6_I1_O_MUX2_LUT7_I1_O_LUT4_I0_F_MUX2_LUT6_O_LC.OF
+Info:  4.7 22.5    Net bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_10_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT7_O_S0[4] budget 2.537753 ns (20,4) -> (30,13)
+Info:                Sink bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_S0_ALU_SUM_COUT_ALU_COUT_SUM_LUT3_F_LC.B
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1 23.6  Source bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_S0_ALU_SUM_COUT_ALU_COUT_SUM_LUT3_F_LC.F
+Info:  3.4 27.0    Net bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_10_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I0_MUX2_LUT7_O_S0[0] budget 2.258080 ns (30,13) -> (23,8)
+Info:                Sink bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT4_F_LC.A
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0 28.0  Source bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT4_F_LC.F
+Info:  0.3 28.3    Net bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0 budget 1.295652 ns (23,8) -> (23,8)
+Info:                Sink bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I0
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:164.41-164.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.9-151.11
+Info:  0.2 28.5  Source bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 28.8    Net bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_I1 budget 1.295652 ns (23,8) -> (23,8)
+Info:                Sink bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:164.41-164.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 29.2  Source bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0_MUX2_LUT6_O_LC.OF
+Info:  0.3 29.5    Net bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I0 budget 1.295652 ns (23,8) -> (23,8)
+Info:                Sink bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_LC.I0
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:163.9-163.11
+Info:  0.5 30.0  Source bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_LC.OF
+Info:  0.3 30.3    Net bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_I1 budget 1.295652 ns (23,8) -> (23,8)
+Info:                Sink bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:169.13-169.15
+Info:  0.7 31.1  Source bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O_MUX2_LUT8_O_LC.OF
+Info:  2.2 33.2    Net bcd_converter.temp_MUX2_LUT7_O_S0_LUT2_F_I1_ALU_SUM_COUT_ALU_COUT_5_SUM_LUT4_I3_F_MUX2_LUT5_I1_O[0] budget 1.295652 ns (23,8) -> (24,13)
+Info:                Sink bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0_LUT4_F_LC.A
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0 34.3  Source bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0_LUT4_F_LC.F
+Info:  0.3 34.6    Net bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_I0 budget 0.924481 ns (24,13) -> (24,13)
+Info:                Sink bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.I0
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:158.41-158.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.9-151.11
+Info:  0.2 34.8  Source bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0_MUX2_LUT5_O_LC.OF
+Info:  0.3 35.1    Net bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_I0 budget 0.924481 ns (24,13) -> (24,13)
+Info:                Sink bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I0
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.9-157.11
+Info:  0.4 35.4  Source bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 35.8    Net bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_I1 budget 0.924481 ns (24,13) -> (24,13)
+Info:                Sink bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:170.42-170.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5 36.3  Source bcd_converter.temp_MUX2_LUT8_O_10_I0_MUX2_LUT7_O_LC.OF
+Info:  0.4 36.7    Net bcd_converter.temp_MUX2_LUT8_O_10_I0 budget 0.924481 ns (24,13) -> (23,13)
+Info:                Sink bcd_converter.temp_MUX2_LUT8_O_10_LC.I0
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:169.9-169.11
+Info:  0.7 37.4  Source bcd_converter.temp_MUX2_LUT8_O_10_LC.OF
+Info:  1.2 38.6    Net bcd_converter.temp[5] budget 0.924481 ns (23,13) -> (23,14)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.B
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:114.16-120.6
+Info:                  ../design/bin_to_bcd.sv:8.18-8.22
+Info:  1.1 39.7  Source disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 40.1    Net disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 0.713656 ns (23,14) -> (23,14)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 40.2  Source disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 40.6    Net disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 0.713656 ns (23,14) -> (23,14)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 40.9  Source disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 41.2    Net disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_I1 budget 0.713656 ns (23,14) -> (23,14)
+Info:                Sink disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5 41.8  Source disp_ctrl.digit_index_LUT4_I2_1_F_MUX2_LUT7_O_LC.OF
+Info:  1.9 43.7    Net disp_ctrl.c_LUT3_F_I2_MUX2_LUT8_O_I0_MUX2_LUT7_O_I0_MUX2_LUT6_O_I0_MUX2_LUT5_O_S0[1] budget 0.713656 ns (23,14) -> (22,19)
+Info:                Sink disp_ctrl.g_LUT4_F_I0_MUX2_LUT6_O_2_I1_MUX2_LUT5_O_I1_LUT4_F_LC.B
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1 44.8  Source disp_ctrl.g_LUT4_F_I0_MUX2_LUT6_O_2_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 45.1    Net disp_ctrl.g_LUT4_F_I0_MUX2_LUT6_O_2_I1_MUX2_LUT5_O_I1 budget 0.595845 ns (22,19) -> (22,19)
+Info:                Sink disp_ctrl.g_LUT4_F_I0_MUX2_LUT6_O_2_I1_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 45.3  Source disp_ctrl.g_LUT4_F_I0_MUX2_LUT6_O_2_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 45.6    Net disp_ctrl.g_LUT4_F_I0_MUX2_LUT6_O_2_I1 budget 0.595845 ns (22,19) -> (22,19)
+Info:                Sink disp_ctrl.g_LUT4_F_I0_MUX2_LUT6_O_2_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 46.0  Source disp_ctrl.g_LUT4_F_I0_MUX2_LUT6_O_2_LC.OF
+Info:  7.5 53.5    Net disp_ctrl.g_LUT4_F_I0[2] budget 0.595845 ns (22,19) -> (41,10)
+Info:                Sink disp_ctrl.b_LUT4_F_LC.B
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1 54.6  Source disp_ctrl.b_LUT4_F_LC.F
+Info:  2.7 57.3    Net seg[5] budget 0.544516 ns (41,10) -> (41,0)
+Info:                Sink b_OBUF_O$iob.I
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:31.17-31.20
+Info: 18.1 ns logic, 39.2 ns routing
+
+Info: Critical path report for cross-domain path 'posedge slow_clk' -> '<async>':
+Info: curr total
+Info:  0.5  0.5  Source scanner_inst.col_shift_reg_DFFRE_Q_2_DFFLC.Q
+Info:  0.4  0.9    Net debounce_2_inst.stable_LUT4_I0_2_F_LUT3_F_1_I2[1] budget 36.579037 ns (15,16) -> (14,16)
+Info:                Sink debounce_2_inst.stable_LUT4_I0_2_F_LUT4_F_LC.B
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:57.13-63.6
+Info:                  ../design/scanner.sv:5.24-5.37
+Info:  1.1  2.0  Source debounce_2_inst.stable_LUT4_I0_2_F_LUT4_F_LC.F
+Info:  0.4  2.4    Net debounce_2_inst.stable_LUT4_I0_2_F[1] budget 17.740519 ns (14,16) -> (14,15)
+Info:                Sink decoder_inst.key_value_LUT3_F_I1_LUT3_F_LC.C
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  0.8  3.2  Source decoder_inst.key_value_LUT3_F_I1_LUT3_F_LC.F
+Info:  0.3  3.5    Net decoder_inst.key_value_LUT3_F_I0[1] budget 11.461013 ns (14,15) -> (14,15)
+Info:                Sink teclado_decimal_inst.show_mult_DFFE_Q_D_LUT2_F_LC.B
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1  4.6  Source teclado_decimal_inst.show_mult_DFFE_Q_D_LUT2_F_LC.F
+Info:  0.9  5.5    Net teclado_decimal_inst.key_value_LUT4_F_I1[3] budget 8.321259 ns (14,15) -> (13,16)
+Info:                Sink teclado_decimal_inst.key_value_LUT4_F_LC.D
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  0.6  6.1  Source teclado_decimal_inst.key_value_LUT4_F_LC.F
+Info:  4.7 10.9    Net key[3] budget 6.532008 ns (13,16) -> (0,21)
+Info:                Sink led_OBUF_O$iob.I
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:74.27-87.6
+Info:                  ../design/teclado_decimal_input.sv:5.23-5.32
+Info: 4.1 ns logic, 6.8 ns routing
+
+Info: Critical path report for cross-domain path 'posedge slow_clk' -> 'posedge debounce_1_inst.clk':
+Info: curr total
+Info:  0.5  0.5  Source scanner_inst.col_shift_reg_DFFRE_Q_DFFLC.Q
+Info:  0.8  1.3    Net decoder_inst.col_shift_reg[3] budget 36.579037 ns (14,16) -> (15,16)
+Info:                Sink debounce_2_inst.stable_LUT4_I0_2_F_LUT3_F_1_I2_LUT2_F_LC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:57.13-63.6
+Info:                  ../design/scanner.sv:5.24-5.37
+Info:  1.0  2.3  Source debounce_2_inst.stable_LUT4_I0_2_F_LUT3_F_1_I2_LUT2_F_LC.F
+Info:  0.3  2.6    Net debounce_2_inst.stable_LUT4_I0_2_F_LUT3_F_1_I2[2] budget 17.740519 ns (15,16) -> (15,16)
+Info:                Sink debounce_2_inst.stable_LUT4_I0_2_F_LUT3_F_1_LC.C
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  0.8  3.4  Source debounce_2_inst.stable_LUT4_I0_2_F_LUT3_F_1_LC.F
+Info:  0.3  3.8    Net debounce_2_inst.stable_LUT4_I0_2_F[3] budget 11.553013 ns (15,16) -> (15,16)
+Info:                Sink decoder_inst.key_value_LUT3_F_I0_LUT4_F_LC.B
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1  4.9  Source decoder_inst.key_value_LUT3_F_I0_LUT4_F_LC.F
+Info:  0.4  5.3    Net decoder_inst.key_value_LUT3_F_I0[0] budget 8.390259 ns (15,16) -> (14,16)
+Info:                Sink decoder_inst.key_value_LUT3_F_LC.A
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0  6.3  Source decoder_inst.key_value_LUT3_F_LC.F
+Info:  2.2  8.5    Net key[1] budget 6.506007 ns (14,16) -> (8,16)
+Info:                Sink decoder_inst.key_value_ALU_I0_1_ALULC.A
+Info:                Defined in:
+Info:                  ../design/module_top_keyboard.sv:74.27-87.6
+Info:                  ../design/teclado_decimal_input.sv:5.23-5.32
+Info:  1.0  9.5  Source decoder_inst.key_value_ALU_I0_1_ALULC.F
+Info:  0.5 10.0    Net decoder_inst.key_value_ALU_I0_1_SUM[0] budget 5.249839 ns (8,16) -> (8,15)
+Info:                Sink teclado_decimal_inst.acumulador1_DFFRE_Q_6_D_LUT2_F_LC.B
+Info:                Defined in:
+Info:                  C:\Users\manue\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  0.0 10.0  Setup teclado_decimal_inst.acumulador1_DFFRE_Q_6_D_LUT2_F_LC.B
+Info: 5.5 ns logic, 4.5 ns routing
+
+Info: Max frequency for clock 'debounce_1_inst.clk': 38.04 MHz (PASS at 27.00 MHz)
+Info: Max frequency for clock            'slow_clk': 1067.24 MHz (PASS at 27.00 MHz)
+
+Info: Max delay <async>                     -> <async>                    : 11.02 ns
+Info: Max delay <async>                     -> posedge debounce_1_inst.clk: 9.36 ns
+Info: Max delay posedge debounce_1_inst.clk -> <async>                    : 57.30 ns
+Info: Max delay posedge slow_clk            -> <async>                    : 10.87 ns
+Info: Max delay posedge slow_clk            -> posedge debounce_1_inst.clk: 9.99 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 10 endpoint(s)
+Info:          + represents [1,10) endpoint(s)
+Info: [-20267, -17424) |+
+Info: [-17424, -14581) |*+
+Info: [-14581, -11738) |+
+Info: [-11738,  -8895) |+
+Info: [ -8895,  -6052) |+
+Info: [ -6052,  -3209) |*+
+Info: [ -3209,   -366) |*+
+Info: [  -366,   2477) |*+
+Info: [  2477,   5320) |*+
+Info: [  5320,   8163) |*+
+Info: [  8163,  11006) |***+
+Info: [ 11006,  13849) |*************+
+Info: [ 13849,  16692) |**************************+
+Info: [ 16692,  19535) |*******************************+
+Info: [ 19535,  22378) |*********************+
+Info: [ 22378,  25221) |***********+
+Info: [ 25221,  28064) |*************+
+Info: [ 28064,  30907) |***********************+
+Info: [ 30907,  33750) |******************************+
+Info: [ 33750,  36593) |************************************************************ 
+
+Info: Program finished normally.
