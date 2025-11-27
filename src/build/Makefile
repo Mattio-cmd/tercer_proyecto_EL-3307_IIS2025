@@ -15,7 +15,7 @@ SOURCES := $(wildcard ../design/*.v ../design/*.sv) #Todas las fuentes .v o .sv 
 
 #Fuente de simulacion
 #aca va el testbench que quieran simular
-TESTBENCH = ../sim/module_top_keyboard_tb.sv
+TESTBENCH = ../sim/TB_total_division.sv
 
 # Constraints para el proyecto
 #aca va el archivo de constraints del proyecto
@@ -23,7 +23,7 @@ CONSTRAINTS = ../constr/keyboard.cst
 
 #el top se indica sin la extension .v, esto hace referencia al nombre que le pusieron al módulo y no al archivo en si.
 TOP_DESIGN = module_top_keyboard
-TOP_TB = mult_with_no_sm_tb
+TOP_TB = TB_total_division
 
 
 #nombre del vcd que va a generar el tb
@@ -52,8 +52,9 @@ bitstream: ${PROYECT}_pnr.json
 
 #Generar vcd con icarus verilog
 test: ${SOURCES} ${TESTBENCH}
-	@iverilog -o ${PROYECT}_test.o -s ${TOP_TB} -g2005-sv ${SOURCES} ${TESTBENCH}
+	@iverilog -o ${PROYECT}_test.o -DSIMULATION -s ${TOP_TB} -g2012 ${SOURCES} ${TESTBENCH}
 	@vvp ${PROYECT}_test.o
+
 
 #Visualizar los diagramas de tiempo con GTKWave
 wv: ${VCD_FILE}

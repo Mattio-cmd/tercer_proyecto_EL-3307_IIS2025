@@ -6,8 +6,15 @@ module module_top_keyboard (
     output logic [3:0] led,
     output logic [3:0] anodo,
     output logic [15:0] suma_out, // ya no se usa como suma (se mantiene por compatibilidad)
-    output logic a, b, c, d, e, f, g
+    output logic a, b, c, d, e, f, g,
+
+output logic [1:0] col_idx_dbg, //testbench
+output logic [3:0] col_reg_dbg//testbench
 );
+
+assign col_idx_dbg = column_index; //testbench
+assign col_reg_dbg = columnas; //testbench
+
 
     logic slow_clk;
     logic pulse_out;
@@ -126,5 +133,12 @@ module module_top_keyboard (
 
     assign {a, b, c, d, e, f, g} = seg;
     assign led = key;
+
+`ifdef SIMULATION
+    // En simulación, permitimos que el testbench fuerce columnas
+    logic [3:0] columnas_sim;
+    assign columnas = columnas_sim;
+`endif
+
 
 endmodule
