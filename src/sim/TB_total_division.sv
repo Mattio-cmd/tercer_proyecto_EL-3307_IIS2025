@@ -2,6 +2,17 @@
 
 module TB_total_division;
 
+task automatic sleep(input time delay_ns);
+    #delay_ns;
+endtask
+
+initial begin
+    $display("Esperando...");
+    sleep(100_000_000_000_000);  // 1000 us
+    $display("Listo");
+end
+
+
     logic clk;
     logic rst;
 
@@ -55,52 +66,67 @@ module TB_total_division;
     end
     endtask
 
-    // Task para simular presión de tecla con logs cinematográficos
+
+    // ===========================================================
+    // PRESIONAR TECLA CON DELAYS “RESPIRABLES"
+    // ===========================================================
+
     task press_key(input string name, input int key_code, input logic [3:0] col, row);
     begin
         $display("[*] Presionando tecla '%s' (col=%b, row=%b)...", name, col, row);
-        #1000;
+        #50_000;
+
         fake_decoder(key_code);
+        #50_000;
+
         fake_fsm(key_code);
-        #1000;
+        #50_000;
+
         $display("    Tecla '%s' procesada en simulación.\n", name);
+        #50_000;
     end
     endtask
 
-    // ENTER = tecla A
+    // ENTER = A
     task press_enter();
     begin
         $display("[*] Presionando tecla 'ENTER' (col=11, row=0111)...");
-        #1000;
+        #50_000;
 
         fake_decoder(15);
+        #50_000;
+
         $display(">>> [k_input_fsm] t=%0t st=%0d num1=%03d num2=%03d sampled_key=15",
                  $time, state, num1, num2);
+        #50_000;
 
         if (state == 0)
             state = 1;
         else if (state == 1)
             state = 2;
 
-        #1000;
         $display("    Tecla 'ENTER' procesada en simulación.\n");
+        #50_000;
     end
     endtask
 
-    // Tecla D = operación división
+    // D = DIV
     task press_D();
     begin
         $display("[*] Presionando tecla 'D' → DIV (col=11, row=0001)...");
-        #1000;
+        #50_000;
 
         fake_decoder(13);
+        #50_000;
+
         state = 3;
 
         $display(">>> [k_input_fsm] t=%0t st=3 num1=%03d num2=%03d sampled_key=13",
                  $time, num1, num2);
+        #50_000;
 
-        #1000;
         $display("    Tecla 'D' procesada en simulación.\n");
+        #50_000;
     end
     endtask
 
@@ -127,7 +153,7 @@ module TB_total_division;
         press_key($sformatf("%0d", tmp), tmp, 4'b0010, 4'b1110);
         press_enter();
 
-        // Ingresar B dígito por dígito
+        // Ingresar B
         state = 1;
         tmp = B;
         if (tmp >= 100) begin press_key($sformatf("%0d", tmp/100), tmp/100, 4'b0000, 4'b1101); tmp %= 100; end
@@ -135,10 +161,10 @@ module TB_total_division;
         press_key($sformatf("%0d", tmp), tmp, 4'b0010, 4'b1101);
         press_enter();
 
-        // Realizar división
+        // DIV
         press_D();
 
-        #20000;
+        #100_000;
 
         $display(" RESULTADOS");
         $display("A = %0d", num1);
@@ -157,11 +183,11 @@ module TB_total_division;
         $display("TEST TECLADO (FAKE MODE)\n");
 
         rst = 0;
-        #100000;
+        #100_000;
         rst = 1;
 
         $display("[1] Reset...");
-        #50000;
+        #100_000;
         $display("[2] Reset liberado\n");
 
         run_test(100, 5);
